@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #4776e6;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.myId {
+  border-radius: 10px;
+  background: #fff;
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 100px;
+}
+
+.call-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.caller {
+  text-align: center;
+  color: rgb(140, 140, 140);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
